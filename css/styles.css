@@ -1,0 +1,304 @@
+
+html{
+    font-size: 62,5%;
+}
+
+#logo {
+    float: left;
+}
+
+/*NAV*/
+
+nav{
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+ul {
+    list-style: none;
+    margin-top: 1.7rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+li {
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+li:hover {
+    background-color: #b4a180;
+    border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #EEF0F2;
+}
+
+.der {
+    margin-right: 20rem;
+}
+
+.iniciarSesion {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid;
+    border-color: #EEF0F2;
+    border-radius: 10px;
+}
+
+.iniciarSesion:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+.suscribirme {
+    background-color: #DC8904;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+.suscribirme:hover { 
+    background-color: #ff9e01;
+}
+
+/*MAIN*/
+
+.h1 {
+    opacity: .8;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+.bodyMain {
+    background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.main {
+    padding-top: 7rem;
+}
+
+.centro{
+    text-align: center;
+    color: #efd6ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.textoMedio {
+    font-size: 2.5rem;
+    margin: 1rem;
+    opacity: 0.9;
+}
+
+.subtitulo {
+    font-style: italic;
+    margin: 0,7 rem;
+    opacity: 0.7;
+}
+.suscribirme2 {
+    margin-top: 3rem;
+}
+.suscribirmeLink {
+    background-color: #DC8904;
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 4rem;
+}
+
+.suscribirmeLink:hover {
+    background-color: #ff9e01;
+}
+
+.seccion2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.tituloHtml {
+    text-align: center;
+    color: #efd6ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    opacity: 0.9; 
+}
+/* --------- COMO FUNCIONA --------- */
+
+.titulo {
+    text-align: center;
+    color: #efd6ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+
+}
+
+.titulosComoFunciona {
+    display:flex;
+    align-items: center;
+}
+
+p {
+    color: #EEF0F2;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+
+.registro, .material, .seguimiento {
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    }    
+
+/*SUSCRIBIRME*/
+
+.bodySuscribirte {
+    background-image: url("../img/fondoSuscribirte.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.formulario {
+    text-align: center;
+    color: #EEF0F2;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+    margin-bottom: 5rem;
+}
+
+input{
+    position: fixed;
+    left: 50rem;
+    width: 200px;
+}
+
+label {
+    position: fixed;
+    left: 30rem;
+    margin: 10px;
+}
+
+.boton {
+    width: 100px;
+}
+
+.video1 {
+ opacity: 0.7;
+ margin-right: 1rem;
+}
+
+.textos {
+    display: flex;
+    width: 75%;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+}
+
+/* ----------- FOOTER --------------- */
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #EEF0F2;
+    text-align: center;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    opacity: 0.5;
+    font-size: 90%;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CDGV {
+    text-align: center;
+}
+
+/* ---------- QUIENES SOMOS  ------------*/
+
+.bodyQuienesSomos {
+    background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2QuienesSomos.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.mainPages {
+    padding-top: 5rem;
+}
+.profesor {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.divProfesor {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+ 
+.quienesSomos {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.profesor2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* --------- CURSOS --------- */
+
+.bodyCursos {
+    background-image: url("../img/fondo.jpg"), url("../img/fondo2Cursos.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+.cursos {
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: #efd6ac;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
