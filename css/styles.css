@@ -75,6 +75,18 @@ a {
     background-color: #ff9e01;
 }
 
+@media (max-width: 720px) {
+    .izq {display:none}
+    .der { margin-right: 0rem;    }
+    header {   
+        margin-left: 0rem;
+        margin-right: 0rem;}
+    li {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
 /*MAIN*/
 
 .h1 {
@@ -172,6 +184,8 @@ a {
         margin-top: 0rem;
         margin-left: 0rem;
         margin-bottom: 0rem;
+        margin-right: 0rem;
+        width: 100%;
     }
     iframe {
         width: 100%;
@@ -256,6 +270,13 @@ footer {
 
 .CDGV {
     text-align: center;
+}
+
+@media (max-width: 720px) {
+    #footer {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
 }
 
 /* ---------- QUIENES SOMOS  ------------*/
