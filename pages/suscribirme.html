@@ -18,21 +18,47 @@
 </head>
 <body class="bodySuscribirte">
     <header>
-        <a title="clases de guitarra" href="../index.html"><img src="../img/logo al reves.png" alt="Logo Clases de guitarra" width="90" height="90px" id="logo" /></a>
-        <nav>
-            <ul>
-                <div class="izq">
-                    <li><a href="../pages/quienesSomos.html">Quienes Somos</a></li>
-                    <li><a href="../pages/comoFunciona.html">Como funciona</a></li>
-                    <li><a href="../pages/cursos.html">Cursos</a></li>
-                </div>
-                <div class="der">
-                    <li class="iniciarSesion"><a href="">Iniciar Sesion</a></li>
-                    <li class="suscribirme"><a href="../pages/suscribirme.html">Suscribirme</a></li>
-                </div>
-                
-            </ul>                 
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+            <div class="container-fluid div_nav">
+              <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo al reves.png" alt="Logo Cursos de guitarra virtual"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./comoFunciona.html">Cómo funciona</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_cursos" href="./cursos.html">Cursos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav_iniciarsesion" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Iniciar sesion
+                    </a>
+                    <ul class="dropdown-menu nav_ul_dropdown-menu">
+                      <li><form>
+                        <label for="user" class="label_nav">Usuario</label>
+                        <input type="user">
+                      </form>
+                        </li>
+                      <li><form>
+                        <label for="password" class="label_nav">Contraseña</label>
+                        <input type="password">
+                      </form></li>
+                      <li><button type="submit" class="btn btn-primary suscribirme2">Ingresar</button></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./suscribirme.html">Suscribirme</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         
     </header>
     <main class="mainPages">

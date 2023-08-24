@@ -18,71 +18,118 @@
 </head>
 <body class="bodyCursos">
     <header>
-        <a title="clases de guitarra" href="../index.html"><img src="../img/logo al reves.png" alt="Logo Clases de guitarra" width="90" height="90px" id="logo" /></a>
-        <nav>
-            <ul>
-                <div class="izq">
-                    <li><a href="../pages/quienesSomos.html">Quienes Somos</a></li>
-                    <li><a href="../pages/comoFunciona.html">Como funciona</a></li>
-                    <li><a href="../pages/cursos.html">Cursos</a></li>
-                </div>
-                <div class="der">
-                    <li class="iniciarSesion"><a href="">Iniciar Sesion</a></li>
-                    <li class="suscribirme"><a href="../pages/suscribirme.html">Suscribirme</a></li>
-                </div>
-                
-            </ul>                 
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+            <div class="container-fluid div_nav">
+              <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo al reves.png" alt="Logo Cursos de guitarra virtual"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./comoFunciona.html">Cómo funciona</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_cursos" href="./cursos.html">Cursos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav_iniciarsesion" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Iniciar sesion
+                    </a>
+                    <ul class="dropdown-menu nav_ul_dropdown-menu">
+                      <li><form>
+                        <label for="user" class="label_nav">Usuario</label>
+                        <input type="user">
+                      </form>
+                        </li>
+                      <li><form>
+                        <label for="password" class="label_nav">Contraseña</label>
+                        <input type="password">
+                      </form></li>
+                      <li><button type="submit" class="btn btn-primary suscribirme2">Ingresar</button></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./suscribirme.html">Suscribirme</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         
     </header>
     <main class="mainPages">
         <h1 class="tituloHtml">CURSOS</h1>
-        <div class="cursos">
-            <div>
+
+        <div class="cursos row">
+            <div class="col-lg-5 col-md-12">
                 <h2 class="titulo">Guitarra Inicial</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum dignissimos eum, blanditiis, dolorum eius architecto deleniti nihil veniam tempora aliquid commodi expedita amet tempore, consequuntur nobis dolores? Eos, nam?</p>
             </div>
-            <div>
+            <div class="col-lg-7 col-md-12">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 
-        <div class="cursos">
-            <div>
+        <div class="cursos cursos_desktop row">
+            <div class="col-lg-7 col-md-12">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div>
+            <div class="col-lg-5 col-md-12">
                 <h2 class="titulo">Guitarra Rock</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum dignissimos eum, blanditiis, dolorum eius architecto deleniti nihil veniam tempora aliquid commodi expedita amet tempore, consequuntur nobis dolores? Eos, nam?</p>    
             </div> 
         </div>
 
-        <div class="cursos">
-            <div>
+        <div class="cursos cursos_mobile row">
+          <div class="col-lg-5 col-md-12">
+            <h2 class="titulo">Guitarra Rock</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum dignissimos eum, blanditiis, dolorum eius architecto deleniti nihil veniam tempora aliquid commodi expedita amet tempore, consequuntur nobis dolores? Eos, nam?</p>    
+        </div> 
+          <div class="col-lg-7 col-md-12">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+      </div>
+
+        <div class="cursos row">
+            <div class="col-lg-5 col-md-12">
                 <h2 class="titulo">Guitarra Funk</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum dignissimos eum, blanditiis, dolorum eius architecto deleniti nihil veniam tempora aliquid commodi expedita amet tempore, consequuntur nobis dolores? Eos, nam?</p>
             </div>
-            <div>
+            <div class="col-lg-7 col-md-12">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 
-        <div class="cursos">
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div>
-                <h2 class="titulo">Guitarra Jazz</h2>
+        <div class="cursos cursos_mobile row">
+          <div class="col-lg-5 col-md-12">
+            <h2 class="titulo">Guitarra Jazz</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum dignissimos eum, blanditiis, dolorum eius architecto deleniti nihil veniam tempora aliquid commodi expedita amet tempore, consequuntur nobis dolores? Eos, nam?</p>
+          </div>
+            <div class="col-lg-7 col-md-12">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 
-        <div class="cursos">
-            <div>
+        <div class="cursos cursos_desktop row">
+          <div class="col-lg-7 col-md-12">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-5 col-md-12">
+              <h2 class="titulo">Guitarra Jazz</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum dignissimos eum, blanditiis, dolorum eius architecto deleniti nihil veniam tempora aliquid commodi expedita amet tempore, consequuntur nobis dolores? Eos, nam?</p>
+          </div>
+      </div>
+
+        <div class="cursos row">
+            <div class="col-lg-5 col-md-12">
                 <h2 class="titulo">Guitarra Clásica</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum dignissimos eum, blanditiis, dolorum eius architecto deleniti nihil veniam tempora aliquid commodi expedita amet tempore, consequuntur nobis dolores? Eos, nam?</p>
             </div>
-            <div>
+            <div class="col-lg-7 col-md-12">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/sQpUv3cFD3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>

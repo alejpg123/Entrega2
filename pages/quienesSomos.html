@@ -18,21 +18,47 @@
 </head>
 <body class="bodyQuienesSomos">
     <header>
-        <a title="clases de guitarra" href="../index.html"><img src="../img/logo al reves.png" alt="Logo Clases de guitarra" width="90" height="90px" id="logo" /></a>
-        <nav>
-            <ul>
-                <div class="izq">
-                    <li><a href="../pages/quienesSomos.html">Quienes Somos</a></li>
-                    <li><a href="../pages/comoFunciona.html">Como funciona</a></li>
-                    <li><a href="../pages/cursos.html">Cursos</a></li>
-                </div>
-                <div class="der">
-                    <li class="iniciarSesion"><a href="">Iniciar Sesion</a></li>
-                    <li class="suscribirme"><a href="../pages/suscribirme.html">Suscribirme</a></li>
-                </div>
-                
-            </ul>                 
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+            <div class="container-fluid div_nav">
+              <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo al reves.png" alt="Logo Cursos de guitarra virtual"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./comoFunciona.html">Cómo funciona</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_cursos" href="./cursos.html">Cursos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav_iniciarsesion" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Iniciar sesion
+                    </a>
+                    <ul class="dropdown-menu nav_ul_dropdown-menu">
+                      <li><form>
+                        <label for="user" class="label_nav">Usuario</label>
+                        <input type="user">
+                      </form>
+                        </li>
+                      <li><form>
+                        <label for="password" class="label_nav">Contraseña</label>
+                        <input type="password">
+                      </form></li>
+                      <li><button type="submit" class="btn btn-primary suscribirme2">Ingresar</button></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./suscribirme.html">Suscribirme</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         
     </header>
     <main class="mainPages">
@@ -43,25 +69,43 @@
         </div>
  
 
-        <div class="divProfesor">
-            <img src="../img/musico 2.jpg" alt="Profesor1" class="profesor">
-            <div><h2 class="titulo">Profesor 1</h2>
-            <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque laudantium, eveniet, aperiam provident laboriosam numquam soluta accusantium vitae est mollitia, at omnis aliquid amet officia unde labore fuga odio? Magnam.
+        <div class="divProfesor row">
+            <img src="../img/musico 2.jpg" alt="Profesor1" class="profesor col-lg-3 col-md-12">
+            <div class="col-lg-8 col-md-12">
+              <div><h2 class="titulo ">Profesor 1</h2>
+              <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque laudantium, eveniet, aperiam provident laboriosam numquam soluta accusantium vitae est mollitia, at omnis aliquid amet officia unde labore fuga odio? Magnam.
             Voluptatem excepturi, dolorum, ab ut consequatur, temporibus rerum culpa quis accusantium pariatur eum alias totam blanditiis vel? Ipsa magni at, similique, a commodi molestiae ipsam adipisci blanditiis in odit consectetur?
             Eligendi officia iure ducimus aspernatur temporibus dicta, ipsum nam? Praesentium dolores ratione distinctio quo laborum? Enim corrupti modi, odit fugit deserunt debitis nam voluptate ea aspernatur ad iure explicabo architecto?
             Adipisci velit ratione minima blanditiis architecto eum iure laboriosam, ducimus ad autem natus, nobis dicta sequi. Ex, ipsum pariatur. Laborum dolor placeat corrupti voluptatem, soluta consectetur sapiente assumenda labore iste.
             Fuga rerum exercitationem cumque doloremque quo cupiditate nisi? Modi quas cum, officiis amet repellendus quos facere, maiores saepe quod sapiente sint laboriosam recusandae eius veniam? Officiis alias quos amet architecto.</p></div></div>
+          </div>
         </div>
 
-        <div class="divProfesor profesor2">
+        <div class="divProfesor profesor2 row profesor2_desktop">
+          <div class="col-lg-8 col-md-12">
             <div><h2 class="titulo">Profesor 2</h2>
             <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas exercitationem quae laborum obcaecati saepe eligendi similique distinctio voluptate architecto sunt amet quisquam iste recusandae quia placeat excepturi, cum natus corrupti?
             Nobis placeat vero sapiente nesciunt, nemo facere voluptates dolor deserunt? Inventore aut itaque iure quisquam, tempore, provident rem esse dicta veniam aliquam est voluptatem odio nobis distinctio odit? Blanditiis, iusto.
             Numquam sunt fugit, perspiciatis, totam quae ducimus cum deleniti, quia ullam enim cupiditate aut. Quasi autem, a atque fugiat incidunt deserunt deleniti ad odio delectus repellat cum maiores eveniet earum!
             Deleniti dicta dignissimos optio modi nam quibusdam voluptates dolor excepturi commodi vel saepe aut dolorum temporibus eos rem cupiditate, dolores, ad accusantium, deserunt a sit ipsa quia! Ab, voluptas saepe.
             Sed eius error maxime aspernatur quia? Esse laboriosam totam voluptates dolore iure doloremque suscipit voluptatum. Quasi, natus? Incidunt, eligendi quae? Enim, praesentium animi tenetur cumque tempore reiciendis suscipit odio eum!</p></div></div>
-            <img src="../img/musico1.jpg" alt="Profesor2" class="profesor">
+          </div>  
+            <img src="../img/musico1.jpg" alt="Profesor2" class="profesor col-lg-3 col-md-12">
         </div>
+
+        <div class="divProfesor profesor2 row profesor2_mobile">
+          <div class="col-lg-8 col-md-12">
+            <img src="../img/musico1.jpg" alt="Profesor2" class="profesor col-lg-3 col-md-12">
+            <div><h2 class="titulo">Profesor 2</h2>
+            <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas exercitationem quae laborum obcaecati saepe eligendi similique distinctio voluptate architecto sunt amet quisquam iste recusandae quia placeat excepturi, cum natus corrupti?
+            Nobis placeat vero sapiente nesciunt, nemo facere voluptates dolor deserunt? Inventore aut itaque iure quisquam, tempore, provident rem esse dicta veniam aliquam est voluptatem odio nobis distinctio odit? Blanditiis, iusto.
+            Numquam sunt fugit, perspiciatis, totam quae ducimus cum deleniti, quia ullam enim cupiditate aut. Quasi autem, a atque fugiat incidunt deserunt deleniti ad odio delectus repellat cum maiores eveniet earum!
+            Deleniti dicta dignissimos optio modi nam quibusdam voluptates dolor excepturi commodi vel saepe aut dolorum temporibus eos rem cupiditate, dolores, ad accusantium, deserunt a sit ipsa quia! Ab, voluptas saepe.
+            Sed eius error maxime aspernatur quia? Esse laboriosam totam voluptates dolore iure doloremque suscipit voluptatum. Quasi, natus? Incidunt, eligendi quae? Enim, praesentium animi tenetur cumque tempore reiciendis suscipit odio eum!</p></div></div>
+          </div>  
+        </div>
+
+
     </main>
     <footer id="footer">
         <div class="footer1">

@@ -3,89 +3,43 @@ html{
     font-size: 62,5%;
 }
 
-#logo {
-    float: left;
-}
-
-/*NAV*/
-
-nav{
-    height: 100%;
-    width: 100%;
-}
-
-header {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 8rem;
-    margin-right: 8rem;
-}
-
-ul {
-    list-style: none;
-    margin-top: 1.7rem;
-    justify-content: space-between;
-    display: flex;
-}
-
-li {
-    display: inline;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-li:hover {
-    background-color: #b4a180;
-    border-radius: 5px;
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 10rem;
 }
 
 a {
-  text-decoration: none;
-  color: #EEF0F2;
+    text-decoration: none;
+    color: #EEF0F2;
+  }
+
+.label_nav {
+    text-align: center;
 }
 
-.der {
-    margin-right: 20rem;
+.nav {
+    background-color:#b4a180 !important;
+    opacity: 0.8;
+    width: 100%;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.iniciarSesion {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border: 2px solid;
-    border-color: #EEF0F2;
-    border-radius: 10px;
+.nav_cursos { 
+    margin-right: 25rem;
 }
 
-.iniciarSesion:hover {
-    background-color: rgb(182, 182, 182);
+.nav_ul_dropdown-menu {
+    background-color:#decfb6;
+    opacity: 1;
+    text-align: center;
 }
-
-.suscribirme {
-    background-color: #DC8904;
-    border-radius: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-
-}
-
-.suscribirme:hover { 
-    background-color: #ff9e01;
-}
-
 @media (max-width: 720px) {
-    .izq {display:none}
-    .der { margin-right: 0rem;    }
-    header {   
-        margin-left: 0rem;
-        margin-right: 0rem;}
-    li {
-        padding-left: 0rem;
-        padding-right: 0rem;
-    }
+    .logo {
+        margin-left: 0rem}
 }
+
 
 /*MAIN*/
 
@@ -179,6 +133,7 @@ a {
     .seccion2 { margin-left: 0rem;
         margin-right: 0rem;
         margin-top: 0rem;
+        margin-bottom: 2rem;
     }
     .textos {
         margin-top: 0rem;
@@ -190,6 +145,9 @@ a {
     iframe {
         width: 100%;
     }
+    .video1 {
+        margin-top: 4rem;
+    }
     .suscribirme2 {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -197,8 +155,6 @@ a {
 }
 
 /* --------- COMO FUNCIONA --------- */
-
-
 
 .titulosComoFunciona {
     display:flex;
@@ -219,6 +175,32 @@ p {
     margin-left: 15rem;
     margin-right: 15rem;
     }    
+
+@media (max-width: 720px) {
+    .registro, .material, .seguimiento {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        }   
+    .material_desktop {
+        display:none;
+    }
+    .titulosComoFunciona {
+        align-items: center;
+        justify-content: center;
+    }
+    .bodyQuienesSomos {
+        background-image: url("../img/fondo.jpg"), url("../img/fondo2comofunciona.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+    }
+}
+
+@media (min-width: 720px) {
+    .material_mobile {
+        display: none;
+    }
+}
 
 /*SUSCRIBIRME*/
 
@@ -289,7 +271,7 @@ footer {
 }
 
 .mainPages {
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 .profesor {
     height: 400px;
@@ -316,6 +298,36 @@ footer {
     padding-bottom: 3rem;
 }
 
+@media (max-width: 720px) {
+    .profesor2_desktop {
+        display: none;
+    }
+    .profesor2 {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .quienesSomos {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .divProfesor {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .profesor {
+        margin: 0 auto;
+        margin-top: 5rem;
+        }
+}
+
+@media (min-width: 720px) {
+    .profesor2_mobile {
+        display:none;
+    }
+}
+
 /* --------- CURSOS --------- */
 
 .bodyCursos {
@@ -340,4 +352,27 @@ h3 {
     font-weight: bold;
     opacity: 0.7;
 }
+
+@media (min-width: 720px) {
+    .cursos_mobile {
+        display:none;
+    }
+}
+
+@media (max-width: 720px) {
+    .cursos {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+    .cursos_desktop {
+        display: none;
+    }
+}
+
+.testimonios {
+    margin-top: 4rem;
+}
+
 

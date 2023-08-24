@@ -18,65 +18,104 @@
 </head>
 <body class="bodyQuienesSomos">
     <header>
-        <a title="clases de guitarra" href="../index.html"><img src="../img/logo al reves.png" alt="Logo Clases de guitarra" width="90" height="90px" id="logo" /></a>
-        <nav>
-            <ul>
-                <div class="izq">
-                    <li><a href="../pages/quienesSomos.html">Quienes Somos</a></li>
-                    <li><a href="../pages/comoFunciona.html">Como funciona</a></li>
-                    <li><a href="../pages/cursos.html">Cursos</a></li>
-                </div>
-                <div class="der">
-                    <li class="iniciarSesion"><a href="">Iniciar Sesion</a></li>
-                    <li class="suscribirme"><a href="../pages/suscribirme.html">Suscribirme</a></li>
-                </div>
-                
-            </ul>                 
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+            <div class="container-fluid div_nav">
+              <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo al reves.png" alt="Logo Cursos de guitarra virtual"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./comoFunciona.html">Cómo funciona</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_cursos" href="./cursos.html">Cursos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav_iniciarsesion" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Iniciar sesion
+                    </a>
+                    <ul class="dropdown-menu nav_ul_dropdown-menu">
+                      <li><form>
+                        <label for="user" class="label_nav">Usuario</label>
+                        <input type="user">
+                      </form>
+                        </li>
+                      <li><form>
+                        <label for="password" class="label_nav">Contraseña</label>
+                        <input type="password">
+                      </form></li>
+                      <li><button type="submit" class="btn btn-primary suscribirme2">Ingresar</button></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./suscribirme.html">Suscribirme</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         
     </header>
     <main class="mainPages">
+
         <h1 class="tituloHtml">CÓMO FUNCIONA?</h1>
-        <div class="registro">
-            <div class="titulosComoFunciona">
+
+        <div class="registro row">
+            <div class="titulosComoFunciona col-lg-3 col-md-12">
                 <h2 class="titulo">REGISTRO</h2>
             </div>
-            <div>
+            <div class="col-lg-9 col-md-12">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita odit nihil odio quod sint. Inventore perferendis delectus, quas totam assumenda similique quasi sequi et est consequatur tempora vel praesentium ut.
                 Nisi assumenda, obcaecati et deserunt animi explicabo dignissimos minima perspiciatis repellendus, voluptatum quaerat harum! Incidunt nostrum dolorem obcaecati esse animi? Fugiat ab placeat explicabo excepturi quo quae nisi vitae expedita.</p>
             </div>
         </div>
 
-        <div class="material">
-            <div>
+        <div class="material row material_desktop">
+            <div class="col-lg-9 col-md-12">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita odit nihil odio quod sint. Inventore perferendis delectus, quas totam assumenda similique quasi sequi et est consequatur tempora vel praesentium ut.
                 Nisi assumenda, obcaecati et deserunt animi explicabo dignissimos minima perspiciatis repellendus, voluptatum quaerat harum! Incidunt nostrum dolorem obcaecati esse animi? Fugiat ab placeat explicabo excepturi quo quae nisi vitae expedita.</p>
             </div>
-            <div class="titulosComoFunciona">
+            <div class="titulosComoFunciona col-lg-3 col-md-12">
                 <h2 class="titulo">MATERIAL</h2>
             </div>
         </div>
 
-        <div class="seguimiento">
-            <div class="titulosComoFunciona">
-                <h2 class="titulo">SEGUIMIENTO</h2>
+        <div class="material row material_mobile">
+            <div class="titulosComoFunciona col-lg-3 col-md-12">
+                <h2 class="titulo">MATERIAL</h2>
             </div>
-            <div>
+            <div class="col-lg-9 col-md-12">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita odit nihil odio quod sint. Inventore perferendis delectus, quas totam assumenda similique quasi sequi et est consequatur tempora vel praesentium ut.
                 Nisi assumenda, obcaecati et deserunt animi explicabo dignissimos minima perspiciatis repellendus, voluptatum quaerat harum! Incidunt nostrum dolorem obcaecati esse animi? Fugiat ab placeat explicabo excepturi quo quae nisi vitae expedita.</p>
             </div>
         </div>
 
-        <div class="textos">
-            <div class="textosInternos">
+        <div class="seguimiento row">
+            <div class="titulosComoFunciona col-lg-3 col-md-12">
+                <h2 class="titulo">SEGUIMIENTO</h2>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita odit nihil odio quod sint. Inventore perferendis delectus, quas totam assumenda similique quasi sequi et est consequatur tempora vel praesentium ut.
+                Nisi assumenda, obcaecati et deserunt animi explicabo dignissimos minima perspiciatis repellendus, voluptatum quaerat harum! Incidunt nostrum dolorem obcaecati esse animi? Fugiat ab placeat explicabo excepturi quo quae nisi vitae expedita.</p>
+            </div>
+        </div>
+        
+
+        <div class="textos testimonios row">
+            <div class="textosInternos col-lg-4 col-md-12">
                 <h2 class="titulo">Testimonio 1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione voluptatem animi in, minima eaque, provident similique laborum illo pariatur, fugiat a nobis molestiae unde dolores. Cumque fugiat iste sit.</p>
             </div>
-            <div class="textosInternos">
+            <div class="textosInternos col-lg-4 col-md-12">
                 <h2 class="titulo">Testimonio 2</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore expedita accusamus ea! Molestiae, nemo aperiam accusamus autem corrupti dolorum necessitatibus alias. Id delectus, officiis harum nemo quis odio dolore illo.</p>
             </div>
-            <div class="textosInternos">
+            <div class="textosInternos col-lg-4 col-md-12">
                 <h2 class="titulo">Testimonio 3</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dolorum explicabo culpa itaque! Omnis quos atque hic deleniti explicabo sapiente doloremque expedita sint impedit, magni quasi eum perspiciatis corporis id?</p>
             </div>
