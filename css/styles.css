@@ -40,6 +40,13 @@ a {
         margin-left: 0rem}
 }
 
+.nav-link {
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color: #EEF0F2;
+}
 
 /*MAIN*/
 
@@ -54,6 +61,13 @@ a {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
+}
+
+@media (max-width: 720px) {
+    .bodyMain {
+        background-image: url("../img/fondoIndexMobile.jpg");
+        
+}
 }
 
 .main {
@@ -176,6 +190,15 @@ p {
     margin-right: 15rem;
     }    
 
+@media (min-width: 720px) {
+        .bodyComoFunciona {
+            background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2.jpg");
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: top;
+        }
+    }
+
 @media (max-width: 720px) {
     .registro, .material, .seguimiento {
         margin-left: 0rem;
@@ -188,12 +211,16 @@ p {
         align-items: center;
         justify-content: center;
     }
-    .bodyQuienesSomos {
-        background-image: url("../img/fondo.jpg"), url("../img/fondo2comofunciona.jpg");
+    .bodyComoFunciona {
+        background-image: url("../img/fondoComoFuncionaMobile.jpg");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: top;
     }
+}
+
+.testimonios {
+    margin-top: 4rem;
 }
 
 @media (min-width: 720px) {
@@ -223,7 +250,12 @@ p {
 .form-select {
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
 
+@media (max-width: 720px) {
+    .form_suscribirme {
+        width: 90%
+    }   
 }
 
 .video1 {
@@ -263,11 +295,13 @@ footer {
 
 /* ---------- QUIENES SOMOS  ------------*/
 
-.bodyQuienesSomos {
-    background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2QuienesSomos.jpg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
+@media (min-width: 720px) {
+    .bodyQuienesSomos {
+        background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2QuienesSomos.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+    }
 }
 
 .mainPages {
@@ -320,13 +354,20 @@ footer {
         margin: 0 auto;
         margin-top: 5rem;
         }
+    .bodyQuienesSomos {
+        background-image: url("../img/fondoQuienesSomosMobile.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+    }
+
 }
 
 @media (min-width: 720px) {
-    .profesor2_mobile {
-        display:none;
+        .profesor2_mobile {
+            display:none;
+        }
     }
-}
 
 /* --------- CURSOS --------- */
 
@@ -369,10 +410,11 @@ h3 {
     .cursos_desktop {
         display: none;
     }
+    .bodyCursos {
+        background-image: url("../img/fondoCursosMobile.jpg");
+    }
 }
 
-.testimonios {
-    margin-top: 4rem;
-}
+
 
 
