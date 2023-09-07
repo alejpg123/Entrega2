@@ -1,0 +1,24 @@
+footer {
+    .footer1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .CDGV {
+        text-align: center;
+    }
+    font-family: 'Open Sans', sans-serif;
+    color: #EEF0F2;
+    text-align: center;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    opacity: 0.5;
+    font-size: 90%;
+}
+
+@media (max-width: 720px) {
+    #footer {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

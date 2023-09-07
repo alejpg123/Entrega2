@@ -1,0 +1,33 @@
+.nav {
+    .nav_ul_dropdown-menu {
+        background-color:#decfb6;
+        text-align: center;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-left: 10rem;
+    }
+    .nav_cursos { 
+        margin-right: 25rem;
+    }
+    .nav-link {
+        border-radius: 10px;
+        &:hover {
+            background-color: #EEF0F2;
+        }
+    }
+
+    .label_nav {
+        text-align: center;
+    }
+    background-color:#b4a180 !important;
+    width: 100%;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 720px) {
+    .logo {
+        margin-left: 0rem}
+}

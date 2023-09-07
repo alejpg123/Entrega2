@@ -1,420 +1,404 @@
-
-html{
-    font-size: 62,5%;
-}
-
-.logo {
-    width: 60px;
-    height: 60px;
-    margin-left: 10rem;
+html {
+  font-size: 62, 5%;
 }
 
 a {
-    text-decoration: none;
-    color: #EEF0F2;
-  }
-
-.label_nav {
-    text-align: center;
-}
-
-.nav {
-    background-color:#b4a180 !important;
-    opacity: 0.8;
-    width: 100%;
-    position: fixed;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.nav_cursos { 
-    margin-right: 25rem;
-}
-
-.nav_ul_dropdown-menu {
-    background-color:#decfb6;
-    opacity: 1;
-    text-align: center;
-}
-@media (max-width: 720px) {
-    .logo {
-        margin-left: 0rem}
-}
-
-.nav-link {
-    border-radius: 10px;
-}
-
-.nav-link:hover {
-    background-color: #EEF0F2;
-}
-
-/*MAIN*/
-
-.h1 {
-    opacity: .8;
-    font-size: 1.7rem;
-    padding-bottom: 1rem;
-}
-
-.bodyMain {
-    background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
-}
-
-@media (max-width: 720px) {
-    .bodyMain {
-        background-image: url("../img/fondoIndexMobile.jpg");
-        
-}
-}
-
-.main {
-    padding-top: 7rem;
-}
-
-.centro{
-    text-align: center;
-    color: #efd6ac;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    align-items: center;
-}
-.textoMedio {
-    font-size: 2.5rem;
-    margin: 1rem;
-    opacity: 0.9;
-}
-
-.subtitulo {
-    font-style: italic;
-    margin: 0,7 rem;
-    opacity: 0.7;
-}
-.suscribirme2 {
-    margin-top: 3rem;
-}
-.suscribirmeLink {
-    background-color: #DC8904;
-    border-radius: 10px;
-    padding: 7px;
-    margin-top: 4rem;
-}
-
-.suscribirmeLink:hover {
-    background-color: #ff9e01;
-}
-
-.seccion2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-
-.tituloHtml {
-    text-align: center;
-    color: #efd6ac;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    opacity: 0.9; 
-}
-
-.textos {
-    display: flex;
-    width: 75%;
-    margin-top: 3rem;
-    margin-left: 11rem;
-    margin-bottom: 3rem;
-}
-
-.titulo {
-    text-align: center;
-    color: #efd6ac;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    opacity: 0.7;
-}
-
-@media (max-width: 720px) {
-    .h1 {font-size: 1rem;
-    }
-    .subtitulo {font-size: 1rem;
-    }
-    .textoMedio {font-size: 2rem}
-    .seccion2 { margin-left: 0rem;
-        margin-right: 0rem;
-        margin-top: 0rem;
-        margin-bottom: 2rem;
-    }
-    .textos {
-        margin-top: 0rem;
-        margin-left: 0rem;
-        margin-bottom: 0rem;
-        margin-right: 0rem;
-        width: 100%;
-    }
-    iframe {
-        width: 100%;
-    }
-    .video1 {
-        margin-top: 4rem;
-    }
-    .suscribirme2 {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-}
-
-/* --------- COMO FUNCIONA --------- */
-
-.titulosComoFunciona {
-    display:flex;
-    align-items: center;
+  text-decoration: none;
+  color: #EEF0F2;
 }
 
 p {
-    color: #EEF0F2;
-    text-align: justify;
-    font-family: 'Open Sans', sans-serif;
-    opacity: 0.8;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    }
-
-.registro, .material, .seguimiento {
-    display: flex;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    }    
-
-@media (min-width: 720px) {
-        .bodyComoFunciona {
-            background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2.jpg");
-            background-repeat: no-repeat;
-            background-position-x: center;
-            background-position-y: top;
-        }
-    }
-
-@media (max-width: 720px) {
-    .registro, .material, .seguimiento {
-        margin-left: 0rem;
-        margin-right: 0rem;
-        }   
-    .material_desktop {
-        display:none;
-    }
-    .titulosComoFunciona {
-        align-items: center;
-        justify-content: center;
-    }
-    .bodyComoFunciona {
-        background-image: url("../img/fondoComoFuncionaMobile.jpg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: top;
-    }
+  color: #EEF0F2;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.8;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.testimonios {
-    margin-top: 4rem;
+.tituloHtml {
+  text-align: center;
+  color: #efd6ac;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.9;
 }
 
-@media (min-width: 720px) {
-    .material_mobile {
-        display: none;
-    }
+.textos {
+  display: flex;
+  width: 75%;
+  margin-top: 3rem;
+  margin-left: 11rem;
+  margin-bottom: 3rem;
 }
 
-/*SUSCRIBIRME*/
-
-.bodySuscribirte {
-    background-image: url("../img/fondoSuscribirte.jpg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
-}
-
-.form_suscribirme {
-    color: #b4a180;
-    text-align: center;
-    margin: 0 auto;
-    width: 30%;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-.form-select {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-@media (max-width: 720px) {
-    .form_suscribirme {
-        width: 90%
-    }   
+.titulo {
+  text-align: center;
+  color: #efd6ac;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
 }
 
 .video1 {
- opacity: 0.7;
- margin-right: 1rem;
-}
-
-
-/* ----------- FOOTER --------------- */
-
-footer {
-    font-family: 'Open Sans', sans-serif;
-    color: #EEF0F2;
-    text-align: center;
-    margin-left: 13rem;
-    margin-right: 13rem;
-    opacity: 0.5;
-    font-size: 90%;
-}
-
-.footer1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.CDGV {
-    text-align: center;
-}
-
-@media (max-width: 720px) {
-    #footer {
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-}
-
-/* ---------- QUIENES SOMOS  ------------*/
-
-@media (min-width: 720px) {
-    .bodyQuienesSomos {
-        background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2QuienesSomos.jpg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: top;
-    }
+  opacity: 0.7;
+  margin-right: 1rem;
 }
 
 .mainPages {
-    padding-top: 7rem;
-}
-.profesor {
-    height: 400px;
-    width: 350px;
-    border-radius: 10px;
-    opacity: 0.7;
-}
-
-.divProfesor {
-    display: flex;
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
- 
-.quienesSomos {
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
-}
-
-.profesor2 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-@media (max-width: 720px) {
-    .profesor2_desktop {
-        display: none;
-    }
-    .profesor2 {
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-    }
-    .quienesSomos {
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-    .divProfesor {
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-    .profesor {
-        margin: 0 auto;
-        margin-top: 5rem;
-        }
-    .bodyQuienesSomos {
-        background-image: url("../img/fondoQuienesSomosMobile.jpg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: top;
-    }
-
-}
-
-@media (min-width: 720px) {
-        .profesor2_mobile {
-            display:none;
-        }
-    }
-
-/* --------- CURSOS --------- */
-
-.bodyCursos {
-    background-image: url("../img/fondo.jpg"), url("../img/fondo2Cursos.jpg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
-}
-.cursos {
-    display: flex;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    align-items: center;
+  padding-top: 7rem;
 }
 
 h3 {
-    text-align: center;
-    color: #efd6ac;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    opacity: 0.7;
+  text-align: center;
+  color: #efd6ac;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
 }
 
-@media (min-width: 720px) {
-    .cursos_mobile {
-        display:none;
-    }
+.bodyMain {
+  background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
 }
 
 @media (max-width: 720px) {
-    .cursos {
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-top: 5rem;
-        margin-bottom: 0rem;
-    }
-    .cursos_desktop {
-        display: none;
-    }
-    .bodyCursos {
-        background-image: url("../img/fondoCursosMobile.jpg");
-    }
+  .bodyMain {
+    background-image: url("../img/fondoIndexMobile.jpg");
+  }
+}
+.main {
+  padding-top: 7rem;
+}
+.main .titulo {
+  text-align: center;
+  color: #efd6ac;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.main .centro {
+  text-align: center;
+  color: #efd6ac;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  align-items: center;
+}
+.main .centro .h1 {
+  opacity: 0.8;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+.main .centro .textoMedio {
+  font-size: 2.5rem;
+  margin: 1rem;
+  opacity: 0.9;
+}
+.main .centro .subtitulo {
+  font-style: italic;
+  margin: 0, 7 rem;
+  opacity: 0.7;
+}
+.main .centro .suscribirme2 {
+  margin-top: 3rem;
+}
+.main .centro .suscribirme2 .suscribirmeLink {
+  background-color: #DC8904;
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 4rem;
+}
+.main .centro .suscribirme2 .suscribirmeLink:hover {
+  background-color: #ff9e01;
+}
+.main .seccion2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.main .seccion2 .video1 {
+  opacity: 0.7;
+  margin-right: 1rem;
+}
+.main .textos {
+  display: flex;
+  width: 75%;
+  margin-top: 3rem;
+  margin-left: 11rem;
+  margin-bottom: 3rem;
+}
+.main .textos .textos_material_seguimiento {
+  padding-top: 2rem;
 }
 
+@media (max-width: 720px) {
+  .h1 {
+    font-size: 1rem;
+  }
+  .subtitulo {
+    font-size: 1rem;
+  }
+  .textoMedio {
+    font-size: 2rem;
+  }
+  .seccion2 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+  }
+  .textos {
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+  .video1 {
+    margin-top: 4rem;
+  }
+  .suscribirme2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .textos_material_seguimiento {
+    padding-top: 0rem;
+  }
+}
+.nav {
+  background-color: #b4a180 !important;
+  width: 100%;
+  position: fixed;
+  font-family: "Open Sans", sans-serif;
+}
+.nav .nav_ul_dropdown-menu {
+  background-color: #decfb6;
+  text-align: center;
+}
+.nav .logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 10rem;
+}
+.nav .nav_cursos {
+  margin-right: 25rem;
+}
+.nav .nav-link {
+  border-radius: 10px;
+}
+.nav .nav-link:hover {
+  background-color: #EEF0F2;
+}
+.nav .label_nav {
+  text-align: center;
+}
 
+@media (max-width: 720px) {
+  .logo {
+    margin-left: 0rem;
+  }
+}
+footer {
+  font-family: "Open Sans", sans-serif;
+  color: #EEF0F2;
+  text-align: center;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  opacity: 0.5;
+  font-size: 90%;
+}
+footer .footer1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .CDGV {
+  text-align: center;
+}
 
+@media (max-width: 720px) {
+  #footer {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+.registro, .material, .seguimiento {
+  display: flex;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+.registro .titulosComoFunciona, .material .titulosComoFunciona, .seguimiento .titulosComoFunciona {
+  display: flex;
+  align-items: center;
+}
 
+.testimonios {
+  margin-top: 10rem;
+}
+
+@media (min-width: 720px) {
+  .bodyComoFunciona {
+    background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+  }
+}
+@media (max-width: 720px) {
+  .registro, .material, .seguimiento {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .material_desktop {
+    display: none;
+  }
+  .titulosComoFunciona {
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyComoFunciona {
+    background-image: url("../img/fondoComoFuncionaMobile.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+  }
+}
+@media (min-width: 720px) {
+  .material_mobile {
+    display: none;
+  }
+}
+@media (min-width: 720px) {
+  .bodyQuienesSomos {
+    background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2QuienesSomos.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+  }
+}
+.quienesSomos {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.divProfesor {
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.divProfesor .profesor {
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.divProfesor .profesor2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 720px) {
+  .profesor2_desktop {
+    display: none;
+  }
+  .profesor2 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .quienesSomos {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .divProfesor {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .profesor {
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+  .bodyQuienesSomos {
+    background-image: url("../img/fondoQuienesSomosMobile.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+  }
+}
+@media (min-width: 720px) {
+  .profesor2_mobile {
+    display: none;
+  }
+}
+.bodyCursos {
+  background-image: url("../img/fondo.jpg"), url("../img/fondo2Cursos.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+}
+.bodyCursos .cursos {
+  display: flex;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  align-items: center;
+}
+
+@media (min-width: 720px) {
+  .cursos_mobile {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .cursos {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+  }
+  .cursos_desktop {
+    display: none;
+  }
+  .bodyCursos {
+    background-image: url("../img/fondoCursosMobile.jpg");
+  }
+}
+.bodySuscribirte {
+  background-image: url("../img/fondoSuscribirte.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+}
+.bodySuscribirte .form_suscribirme {
+  color: #b4a180;
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.bodySuscribirte .form_suscribirme .form-select {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 720px) {
+  .form_suscribirme {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

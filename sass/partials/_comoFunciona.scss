@@ -1,0 +1,49 @@
+
+.registro, .material, .seguimiento {
+    .titulosComoFunciona {
+        display:flex;
+        align-items: center;
+    }
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    }    
+
+.testimonios {
+        margin-top: 10rem;
+    }
+
+@media (min-width: 720px) {
+        .bodyComoFunciona {
+            background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2.jpg");
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: top;
+        }
+    }
+
+@media (max-width: 720px) {
+    .registro, .material, .seguimiento {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        }   
+    .material_desktop {
+        display:none;
+    }
+    .titulosComoFunciona {
+        align-items: center;
+        justify-content: center;
+    }
+    .bodyComoFunciona {
+        background-image: url("../img/fondoComoFuncionaMobile.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+    }
+}
+
+@media (min-width: 720px) {
+    .material_mobile {
+        display: none;
+    }
+}

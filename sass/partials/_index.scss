@@ -1,0 +1,111 @@
+.bodyMain {
+    background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+@media (max-width: 720px) {
+    .bodyMain {
+        background-image: url("../img/fondoIndexMobile.jpg");
+        }
+    }        
+
+.main {
+    .titulo {
+        text-align: center;
+        color: #efd6ac;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        opacity: 0.7;
+    }
+    .centro{
+        .h1 {
+            opacity: .8;
+            font-size: 1.7rem;
+            padding-bottom: 1rem;
+        }
+        .textoMedio {
+            font-size: 2.5rem;
+            margin: 1rem;
+            opacity: 0.9;
+        }
+        .subtitulo {
+            font-style: italic;
+            margin: 0,7 rem;
+            opacity: 0.7;
+        }
+        .suscribirme2 {
+            .suscribirmeLink {
+                background-color: #DC8904;
+                border-radius: 10px;
+                padding: 7px;
+                margin-top: 4rem;
+                &:hover {
+                    background-color: #ff9e01;
+                }
+            }
+            margin-top: 3rem;
+        }
+        text-align: center;
+        color: #efd6ac;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        align-items: center;
+    }
+    .seccion2 {
+        .video1 {
+            opacity: 0.7;
+            margin-right: 1rem;
+           }
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }    
+    .textos {
+        .textos_material_seguimiento{
+            padding-top: 2rem;
+        }
+        display: flex;
+        width: 75%;
+        margin-top: 3rem;
+        margin-left: 11rem;
+        margin-bottom: 3rem;
+    }
+    padding-top: 7rem;
+}
+
+@media (max-width: 720px) {
+    .h1 {font-size: 1rem;
+    }
+    .subtitulo {font-size: 1rem;
+    }
+    .textoMedio {font-size: 2rem}
+    .seccion2 { margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+    .textos {
+        margin-top: 0rem;
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+        margin-right: 0rem;
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .video1 {
+        margin-top: 4rem;
+    }
+    .suscribirme2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .textos_material_seguimiento {
+        padding-top: 0rem;
+    }
+}
