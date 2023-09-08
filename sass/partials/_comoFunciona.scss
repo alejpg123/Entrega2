@@ -1,3 +1,9 @@
+@use './variables';
+@mixin background {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
 
 .registro, .material, .seguimiento {
     .titulosComoFunciona {
@@ -17,9 +23,7 @@
 @media (min-width: 720px) {
         .bodyComoFunciona {
             background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2.jpg");
-            background-repeat: no-repeat;
-            background-position-x: center;
-            background-position-y: top;
+            @include background;
         }
     }
 
@@ -45,9 +49,7 @@
             }
         }
         background-image: url("../img/fondoComoFuncionaMobile.jpg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: top;
+        @include background;
     }
 }
 

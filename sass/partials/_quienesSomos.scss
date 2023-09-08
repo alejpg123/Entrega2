@@ -1,9 +1,14 @@
+@use './variables';
+@mixin background {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
 @media (min-width: 720px) {
     .bodyQuienesSomos {
         background-image: url("../img/fondoQuienesSomos.jpg"), url("../img/fondo2QuienesSomos.jpg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: top;
+        @include background;
     }
 }
 
@@ -19,7 +24,7 @@
         height: 400px;
         width: 350px;
         border-radius: 10px;
-        opacity: 0.7;
+        opacity: variables.$opacityGral;
     }
     .profesor2 {
         padding-top: 3rem;
@@ -39,10 +44,7 @@
                 .videoQuienesSomos{
                     width: 100%;
                 }
-                margin-top: 0rem;
-                margin-bottom: 0rem;
-                margin-left: 0rem;
-                margin-right: 0rem;
+                margin: 0rem;
             }
             .divProfesor {
                 .profesor {
@@ -66,9 +68,7 @@
             }
         }
         background-image: url("../img/fondoQuienesSomosMobile.jpg");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: top;
+        @include background;
     }
 }
 

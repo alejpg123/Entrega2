@@ -1,24 +1,26 @@
+@use './variables';
+
 html{
     font-size: 62,5%;
 }
 
 a {
     text-decoration: none;
-    color: #EEF0F2;
+    color: variables.$colorTexto;
   }
 
 p {
-    color: #EEF0F2;
+    color: variables.$colorTexto;
     text-align: justify;
-    font-family: 'Open Sans', sans-serif;
+    font-family: variables.$fuenteTexto;
     opacity: 0.8;
     padding-left: 1rem;
     padding-right: 1rem;
     }
 .tituloHtml {
         text-align: center;
-        color: #efd6ac;
-        font-family: 'Montserrat', sans-serif;
+        color: variables.$colorTitulo;
+        font-family: variables.$fuenteTitulo;
         font-weight: bold;
         opacity: 0.9; 
     }
@@ -31,24 +33,15 @@ p {
         margin-bottom: 3rem;
     }
     
-.titulo {
-        text-align: center;
-        color: #efd6ac;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        opacity: 0.7;
+.titulo, h3 {
+        @extend .tituloHtml;
+        opacity: variables.$opacityGral;
     }
 .video1 {
-        opacity: 0.7;
+        opacity: variables.$opacityGral;
         margin-right: 1rem;
        }
 .mainPages {
         padding-top: 7rem;
     }
-h3 {
-        text-align: center;
-        color: #efd6ac;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        opacity: 0.7;
-    }
+

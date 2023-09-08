@@ -1,3 +1,5 @@
+@use './variables';
+
 .nav {
     .nav_ul_dropdown-menu {
         background-color:#decfb6;
@@ -14,7 +16,7 @@
     .nav-link {
         border-radius: 10px;
         &:hover {
-            background-color: #EEF0F2;
+            background-color: variables.$colorTexto;
         }
     }
 
@@ -24,7 +26,7 @@
     background-color:#b4a180 !important;
     width: 100%;
     position: fixed;
-    font-family: 'Open Sans', sans-serif;
+    font-family: variables.$fuenteTexto;
 }
 
 @media (max-width: 720px) {

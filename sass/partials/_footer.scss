@@ -1,3 +1,5 @@
+@use './variables';
+
 footer {
     .footer1 {
         display: flex;
@@ -7,8 +9,8 @@ footer {
     .CDGV {
         text-align: center;
     }
-    font-family: 'Open Sans', sans-serif;
-    color: #EEF0F2;
+    font-family: variables.$fuenteTexto;
+    color: variables.$colorTexto;
     text-align: center;
     margin-left: 13rem;
     margin-right: 13rem;

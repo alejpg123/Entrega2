@@ -1,8 +1,20 @@
-.bodyMain {
-    background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
+@use './variables';
+
+@mixin background {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
+}
+@mixin titulo{
+    text-align: center;
+    color: variables.$colorTitulo;
+    font-family: variables.$fuenteTitulo;
+    font-weight: bold;
+}
+
+.bodyMain {
+    background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
+    @include background;
 }
 
 @media (max-width: 720px) {
@@ -13,11 +25,8 @@
 
 .main {
     .titulo {
-        text-align: center;
-        color: #efd6ac;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        opacity: 0.7;
+        @include titulo;
+        opacity: variables.$opacityGral;
     }
     .centro{
         .h1 {
@@ -33,7 +42,7 @@
         .subtitulo {
             font-style: italic;
             margin: 0,7 rem;
-            opacity: 0.7;
+            opacity: variables.$opacityGral;
         }
         .suscribirme2 {
             .suscribirmeLink {
@@ -47,15 +56,12 @@
             }
             margin-top: 3rem;
         }
-        text-align: center;
-        color: #efd6ac;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
+        @include titulo;
         align-items: center;
     }
     .seccion2 {
         .video1 {
-            opacity: 0.7;
+            opacity: variables.$opacityGral;
             margin-right: 1rem;
            }
         display: flex;
@@ -104,10 +110,7 @@
             .textos_material_seguimiento {
                 padding-top: 0rem;
             }
-            margin-top: 0rem;
-            margin-left: 0rem;
-            margin-bottom: 0rem;
-            margin-right: 0rem;
+            margin: 0rem;
             width: 100%;
         }
     }
