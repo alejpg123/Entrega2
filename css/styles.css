@@ -136,39 +136,39 @@ h3 {
 }
 
 @media (max-width: 720px) {
-  .h1 {
+  .main .centro .h1 {
     font-size: 1rem;
   }
-  .subtitulo {
-    font-size: 1rem;
-  }
-  .textoMedio {
+  .main .centro .textoMedio {
     font-size: 2rem;
   }
-  .seccion2 {
+  .main .centro .subtitulo {
+    font-size: 1rem;
+  }
+  .main .centro .suscribirme2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .main .seccion2 {
     margin-left: 0rem;
     margin-right: 0rem;
     margin-top: 0rem;
     margin-bottom: 2rem;
   }
-  .textos {
+  .main .seccion2 .video1 {
+    margin-top: 4rem;
+  }
+  .main .seccion2 .video1 iframe {
+    width: 100%;
+  }
+  .main .textos {
     margin-top: 0rem;
     margin-left: 0rem;
     margin-bottom: 0rem;
     margin-right: 0rem;
     width: 100%;
   }
-  iframe {
-    width: 100%;
-  }
-  .video1 {
-    margin-top: 4rem;
-  }
-  .suscribirme2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .textos_material_seguimiento {
+  .main .textos .textos_material_seguimiento {
     padding-top: 0rem;
   }
 }
@@ -201,7 +201,7 @@ h3 {
 }
 
 @media (max-width: 720px) {
-  .logo {
+  .navbar .div_nav .logo {
     margin-left: 0rem;
   }
 }
@@ -241,6 +241,7 @@ footer .CDGV {
 
 .testimonios {
   margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 @media (min-width: 720px) {
@@ -252,26 +253,32 @@ footer .CDGV {
   }
 }
 @media (max-width: 720px) {
-  .registro, .material, .seguimiento {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-  .material_desktop {
-    display: none;
-  }
-  .titulosComoFunciona {
-    align-items: center;
-    justify-content: center;
-  }
   .bodyComoFunciona {
     background-image: url("../img/fondoComoFuncionaMobile.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
   }
+  .bodyComoFunciona .mainPages .registro, .bodyComoFunciona .mainPages .material, .bodyComoFunciona .mainPages .seguimiento {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .bodyComoFunciona .mainPages .registro .titulosComoFunciona, .bodyComoFunciona .mainPages .material .titulosComoFunciona, .bodyComoFunciona .mainPages .seguimiento .titulosComoFunciona {
+    align-items: center;
+    justify-content: center;
+  }
+  .bodyComoFunciona .mainPages .material_desktop {
+    display: none;
+  }
+  .bodyComoFunciona .mainPages .testimonios {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    width: 100%;
+  }
 }
 @media (min-width: 720px) {
-  .material_mobile {
+  .bodyComoFunciona .mainPages .material_mobile {
     display: none;
   }
 }
@@ -309,32 +316,37 @@ footer .CDGV {
 }
 
 @media (max-width: 720px) {
-  .profesor2_desktop {
-    display: none;
-  }
-  .profesor2 {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-  }
-  .quienesSomos {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-  .divProfesor {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-  .profesor {
-    margin: 0 auto;
-    margin-top: 5rem;
-  }
   .bodyQuienesSomos {
     background-image: url("../img/fondoQuienesSomosMobile.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
+  }
+  .bodyQuienesSomos .mainPages .quienesSomos {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .bodyQuienesSomos .mainPages .divProfesor {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .bodyQuienesSomos .mainPages .divProfesor .profesor {
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  .bodyQuienesSomos .mainPages .divProfesor .profesor2 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .bodyQuienesSomos .mainPages .divProfesor .tituloFran {
+    padding-top: 5rem;
+  }
+  .bodyQuienesSomos .mainPages .profesor2_desktop {
+    display: none;
   }
 }
 @media (min-width: 720px) {
@@ -357,23 +369,23 @@ footer .CDGV {
   align-items: center;
 }
 
-@media (min-width: 720px) {
-  .cursos_mobile {
+@media (max-width: 720px) {
+  .bodyCursos {
+    background-image: url("../img/fondoCursosMobile.jpg");
+  }
+  .bodyCursos .mainPages .cursos_desktop {
     display: none;
   }
-}
-@media (max-width: 720px) {
-  .cursos {
+  .bodyCursos .mainPages .cursos {
     margin-left: 0rem;
     margin-right: 0rem;
     margin-top: 5rem;
     margin-bottom: 0rem;
   }
-  .cursos_desktop {
+}
+@media (min-width: 720px) {
+  .bodyCursos .mainPages .cursos_mobile {
     display: none;
-  }
-  .bodyCursos {
-    background-image: url("../img/fondoCursosMobile.jpg");
   }
 }
 .bodySuscribirte {
@@ -396,7 +408,7 @@ footer .CDGV {
 }
 
 @media (max-width: 720px) {
-  .form_suscribirme {
+  .bodySuscribirte .mainPages .form_suscribirme {
     width: 90%;
   }
 }

@@ -18,7 +18,11 @@
 }
 
 @media (max-width: 720px) {
-    .form_suscribirme {
-        width: 90%
-    }   
+    .bodySuscribirte{
+        .mainPages{
+            .form_suscribirme{
+                width: 90%
+            }
+        }
+    }
 }

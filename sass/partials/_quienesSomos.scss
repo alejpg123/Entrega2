@@ -33,34 +33,40 @@
 }
 
 @media (max-width: 720px) {
-    .profesor2_desktop {
-        display: none;
-    }
-    .profesor2 {
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-    }
-    .quienesSomos {
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-    .divProfesor {
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-    .profesor {
-        margin: 0 auto;
-        margin-top: 5rem;
-        }
     .bodyQuienesSomos {
+        .mainPages{
+            .quienesSomos {
+                margin-top: 0rem;
+                margin-bottom: 0rem;
+                margin-left: 0rem;
+                margin-right: 0rem;
+            }
+            .divProfesor {
+                .profesor {
+                    margin: 0 auto;
+                    margin-top: 4rem;
+                    }
+                .profesor2 {
+                    padding-top: 0rem;
+                    padding-bottom: 0rem;
+                    }
+                .tituloFran {
+                    padding-top: 5rem;
+                }
+                margin-left: 0rem;
+                margin-right: 0rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            .profesor2_desktop {
+                display: none;
+            }
+        }
         background-image: url("../img/fondoQuienesSomosMobile.jpg");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: top;
     }
-
 }
 
 @media (min-width: 720px) {

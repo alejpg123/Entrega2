@@ -11,6 +11,7 @@
 
 .testimonios {
         margin-top: 10rem;
+        margin-bottom: 5rem;
     }
 
 @media (min-width: 720px) {
@@ -23,18 +24,26 @@
     }
 
 @media (max-width: 720px) {
-    .registro, .material, .seguimiento {
-        margin-left: 0rem;
-        margin-right: 0rem;
-        }   
-    .material_desktop {
-        display:none;
-    }
-    .titulosComoFunciona {
-        align-items: center;
-        justify-content: center;
-    }
     .bodyComoFunciona {
+        .mainPages{
+            .registro, .material, .seguimiento {
+                .titulosComoFunciona {
+                    align-items: center;
+                    justify-content: center;
+                }
+                margin-left: 0rem;
+                margin-right: 0rem;
+                }   
+            .material_desktop {
+                display:none;
+            }
+            .testimonios {
+                margin-left: 0rem;
+                margin-right: 0rem;
+                margin-top: 1rem;
+                width: 100%; 
+            }
+        }
         background-image: url("../img/fondoComoFuncionaMobile.jpg");
         background-repeat: no-repeat;
         background-position-x: center;
@@ -43,7 +52,11 @@
 }
 
 @media (min-width: 720px) {
-    .material_mobile {
-        display: none;
+    .bodyComoFunciona {
+        .mainPages{
+            .material_mobile {
+                display: none;
+            }
+        }
     }
 }
