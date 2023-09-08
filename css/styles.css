@@ -328,6 +328,9 @@ footer .CDGV {
     margin-left: 0rem;
     margin-right: 0rem;
   }
+  .bodyQuienesSomos .mainPages .quienesSomos iframe {
+    width: 100%;
+  }
   .bodyQuienesSomos .mainPages .divProfesor {
     margin-left: 0rem;
     margin-right: 0rem;
@@ -381,6 +384,9 @@ footer .CDGV {
     margin-right: 0rem;
     margin-top: 5rem;
     margin-bottom: 0rem;
+  }
+  .bodyCursos .mainPages .cursos div iframe {
+    width: 100%;
   }
 }
 @media (min-width: 720px) {

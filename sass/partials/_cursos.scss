@@ -20,6 +20,11 @@
                 display:none;
             }
             .cursos {
+                div{
+                    iframe{
+                        width: 100%;
+                    }
+                }
                 margin-left: 0rem;
                 margin-right: 0rem;
                 margin-top: 5rem;
