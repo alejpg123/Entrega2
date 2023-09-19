@@ -2,6 +2,18 @@
 
 .nav {
     .nav_ul_dropdown-menu {
+        li{
+            .suscribirme2{
+                background-color: #DC8904;
+                border-radius: 10px;
+                border-color: #DC8904;
+                margin: 1rem;
+                &:hover {
+                    background-color: #ff9e01;
+                }
+        }
+        margin: 1rem;
+        }
         background-color:#decfb6;
         text-align: center;
     }
@@ -22,11 +34,10 @@
     .label_nav {
         text-align: center;
     }
-    background-color:#b4a180 !important;
+    background-color:#b4a180;
     width: 100%;
     position: fixed;
     font-family: variables.$fuenteTexto;
-    z-index: 10; 
 }
 
 @media (max-width: 720px) {

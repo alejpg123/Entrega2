@@ -5,11 +5,16 @@
     background-position-x: center;
     background-position-y: top;
 }
+
 @mixin titulo{
     text-align: center;
     color: variables.$colorTitulo;
     font-family: variables.$fuenteTitulo;
     font-weight: bold;
+}
+
+.container-fluid {
+    width: 100%;
 }
 
 .bodyMain {

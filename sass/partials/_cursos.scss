@@ -1,7 +1,27 @@
 @use './variables';
+@mixin background {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
 
 .bodyCursos {
     .cursos {
+        .col-lg-5, .col-md-12 {
+            .comprarCursos {
+                .comprarLink {
+                    background-color: #DC8904;
+                    border-radius: 10px;
+                    padding: 7px;
+                    margin-bottom: 1rem;
+                    &:hover {
+                        background-color: #ff9e01;
+                    }
+                }
+                display: flex;
+                justify-content: center;
+            }
+        }
         display: flex;
         margin-left: 15rem;
         margin-right: 15rem;
@@ -9,10 +29,14 @@
         margin-bottom: 4rem;
         align-items: center;
     }
+    .cursos_desktop{
+        .col-lg-5{
+            padding-left: 2rem;
+            padding-right: 0rem;
+        }
+    }
     background-image: url("../img/fondo.jpg"), url("../img/fondo2Cursos.jpg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
+    @include background;
 }
 
 @media (max-width: 720px) {

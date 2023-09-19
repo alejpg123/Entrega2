@@ -45,6 +45,10 @@ p {
   padding-top: 7rem;
 }
 
+.container-fluid {
+  width: 100%;
+}
+
 .bodyMain {
   background-image: url("../img/fondo.jpg"), url("../img/fondo2.jpg");
   background-repeat: no-repeat;
@@ -158,7 +162,7 @@ p {
   }
 }
 .nav {
-  background-color: #b4a180 !important;
+  background-color: #b4a180;
   width: 100%;
   position: fixed;
   font-family: "Open Sans", sans-serif;
@@ -166,6 +170,18 @@ p {
 .nav .nav_ul_dropdown-menu {
   background-color: #decfb6;
   text-align: center;
+}
+.nav .nav_ul_dropdown-menu li {
+  margin: 1rem;
+}
+.nav .nav_ul_dropdown-menu li .suscribirme2 {
+  background-color: #DC8904;
+  border-radius: 10px;
+  border-color: #DC8904;
+  margin: 1rem;
+}
+.nav .nav_ul_dropdown-menu li .suscribirme2:hover {
+  background-color: #ff9e01;
 }
 .nav .logo {
   width: 60px;
@@ -353,6 +369,23 @@ footer .CDGV {
   margin-bottom: 4rem;
   align-items: center;
 }
+.bodyCursos .cursos .col-lg-5 .comprarCursos, .bodyCursos .cursos .col-md-12 .comprarCursos {
+  display: flex;
+  justify-content: center;
+}
+.bodyCursos .cursos .col-lg-5 .comprarCursos .comprarLink, .bodyCursos .cursos .col-md-12 .comprarCursos .comprarLink {
+  background-color: #DC8904;
+  border-radius: 10px;
+  padding: 7px;
+  margin-bottom: 1rem;
+}
+.bodyCursos .cursos .col-lg-5 .comprarCursos .comprarLink:hover, .bodyCursos .cursos .col-md-12 .comprarCursos .comprarLink:hover {
+  background-color: #ff9e01;
+}
+.bodyCursos .cursos_desktop .col-lg-5 {
+  padding-left: 2rem;
+  padding-right: 0rem;
+}
 
 @media (max-width: 720px) {
   .bodyCursos {
@@ -390,6 +423,14 @@ footer .CDGV {
 .bodySuscribirte .form_suscribirme .form-select {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+.bodySuscribirte .form_suscribirme .suscribirme {
+  background-color: #DC8904;
+  border-radius: 10px;
+  border-color: #DC8904;
+}
+.bodySuscribirte .form_suscribirme .suscribirme:hover {
+  background-color: #ff9e01;
 }
 
 @media (max-width: 720px) {
